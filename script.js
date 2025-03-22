@@ -2,21 +2,21 @@ console.log("Le script est bien chargé !");
 
 const questions = [
     {
-        title: "Bob",
-        question: "Que signifie HTML ?",
+        title: "Vie personnelle (10 questions)",
+        question: "Quelle est la destination que tu rêves de visiter depuis toujours ?",
         answers: [
-            { text: "Hyper Text Markup Language", correct: true },
-            { text: "Hyperlinks and Text Markup Language", correct: false },
-            { text: "Home Tool Markup Language", correct: false }
+            { text: "Bernes sur Oise", correct: true },
+            { text: "Chambly", correct: false },
+            { text: "Miami", correct: false }
         ]
     },
     {
-        title: "Bonjour",
-        question: "Que signifie CSS ?",
+        title: "Musique des années 90/2000",
+        question: "Quel duo mythique a chanté The Boy is Mine en 1998 ?",
         answers: [
-            { text: "Cascading Style Sheets", correct: true },
-            { text: "Computer Style Sheets", correct: false },
-            { text: "Colorful Style Sheets", correct: false }
+            { text: "Bob l'éponge", correct: false },
+            { text: "Brandy & Monica", correct: true },
+            { text: "En sah le poulet c bon", correct: false }
         ]
     }
 ];
