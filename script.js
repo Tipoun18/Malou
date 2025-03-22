@@ -5,9 +5,9 @@ const questions = [
         title: "Vie personnelle (10 questions)",
         question: "Quelle est la destination que tu rêves de visiter depuis toujours ?",
         answers: [
-            { text: "Bernes sur Oise", correct: true },
+            { text: "Bernes sur Oise", correct: false },
             { text: "Chambly", correct: false },
-            { text: "Miami", correct: false }
+            { text: "Miami", correct: true }
         ]
     },
     {
