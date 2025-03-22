@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="showed">
+        <h1 id="afficher">Quiz pour Malou</h1>
+        <h3 id="afficher">Aujourd'hui c'est l'anniversaire de Malou jsp</h3>
+        <div id="display"><button onclick="showPage()" id="afficher">Commencer le quiz</button></div>
+    </div>
+    <div id="hiddenPage">
+        <div class="quiz-container">
+            <h1 id="titre">Quiz pour malou</h1>
+            <div id="question-container">
+                <p id="question">Question ici...</p>
+                <div id="answers"></div>
+            </div>
+            <button id="next-btn">Suivant</button>
+            <p id="score"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
